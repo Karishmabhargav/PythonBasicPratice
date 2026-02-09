@@ -14,7 +14,7 @@ while True:
     Computer=random.choice(items)
     user_input=input("Enter your choice: ")
     if user_input not in ['s','w','g','q']:
-        print("Invalid input, please try again")
+        print("Something went wrong")
         continue
     if user_input=='q':
         print("Thanks for playing!")
@@ -29,4 +29,4 @@ while True:
         print("You win!")
     else:
         print("Computer chose", Computer)
-        print("Computer wins!")
+        print("You lose!")
